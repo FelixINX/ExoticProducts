@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Catégorie
+
+# Model Form Field configuration
+form: $/devinx/exoticproducts/models/category/fields.yaml
+
+# Model Class name
+modelClass: DevINX\ExoticProducts\Models\Category
+
+# Default redirect location
+defaultRedirect: devinx/exoticproducts/categories
+
+# Create page
+create:
+    title: Créer une catégorie
+    redirect: devinx/exoticproducts/categories/update/:id
+    redirectClose: devinx/exoticproducts/categories
+
+# Update page
+update:
+    title: Modifier la catégorie
+    redirect: devinx/exoticproducts/categories
+    redirectClose: devinx/exoticproducts/categories
+
+# Preview page
+preview:
+    title: Preview Category

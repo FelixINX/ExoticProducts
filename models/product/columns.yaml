@@ -1,0 +1,13 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    name:
+        label: Nom
+        searchable: true
+        type: text
+    short_description:
+        label: Courte description
+        searchable: true
+        type: text

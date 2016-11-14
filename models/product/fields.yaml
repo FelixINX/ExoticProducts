@@ -1,0 +1,24 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label:    Nom
+        type:     text
+        required: true
+    short_description:
+        label:    Courte description
+        type:     text
+        required: true
+    description:
+        label:    Description
+        type:     richeditor
+        required: true
+    image:
+        label:    Image
+        type:     mediafinder
+        required: true
+    category:
+        label:    Catégorie
+        type:     relation

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Produit
+
+# Model Form Field configuration
+form: $/devinx/exoticproducts/models/product/fields.yaml
+
+# Model Class name
+modelClass: DevINX\ExoticProducts\Models\Product
+
+# Default redirect location
+defaultRedirect: devinx/exoticproducts/products
+
+# Create page
+create:
+    title: Créer un produit
+    redirect: devinx/exoticproducts/products/update/:id
+    redirectClose: devinx/exoticproducts/products
+
+# Update page
+update:
+    title: Modifier un produit
+    redirect: devinx/exoticproducts/products
+    redirectClose: devinx/exoticproducts/products
+
+# Preview page
+preview:
+    title: Preview Product

@@ -1,0 +1,13 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+      label:    Nom
+      type:     text
+      required: true
+    description:
+      label:    Description
+      type:     richeditor
+      required: true
